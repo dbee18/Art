@@ -5,7 +5,7 @@ pipeline{
             steps{
 			   //git 'https://github.com/dbee18/Art.git'
 			   // git 'https://github.com/javahometech/myweb.git'
-			   git credentialsId: 'github', url: 'https://github.com/dbee18/Art.git'
+			   git credentialsId: 'github', url: 'https://github.com/dbee18/Art'
             }
         }
         
